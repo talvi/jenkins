@@ -12,8 +12,4 @@
 	<packaging>war</packaging>
 	<name>jenkins-web Maven Webapp</name>
 
-	<build>
-		<finalName>jenkins-web</finalName>
-	</build>
-
 </project>
