@@ -28,7 +28,7 @@
 				<artifactId>maven-ear-plugin</artifactId>
 				<version>2.6</version>
 				<configuration>
-					<finalName>MyEarFile</finalName>
+					<finalName>${project.parent.artifactId}</finalName>
 					<version>6</version>
 					<generatedDescriptorLocation>${basedir}/src/main/application/META-INF</generatedDescriptorLocation>
 					<modules>
